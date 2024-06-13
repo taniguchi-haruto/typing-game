@@ -1,0 +1,23 @@
+.heder{
+    display: inline;
+
+}
+.del {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* 必要に応じてスタイルを追加 */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  .list{
+    display:grid;
+    text-align: center;
+
+  }
+ .waku {
+    border: solid;
+    margin: 2%;
+   
+  }

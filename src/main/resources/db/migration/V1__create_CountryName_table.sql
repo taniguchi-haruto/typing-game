@@ -1,0 +1,1 @@
+create table country(id serial primary key,name text,score integer);
