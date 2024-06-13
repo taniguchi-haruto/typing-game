@@ -1,6 +1,7 @@
  body {
     text-align: center;
     /* margin-top: 30%;*/
+    background-color: bisque;
 } 
 
  .mondai {
@@ -32,7 +33,5 @@
   .bun {
     font-size: 30px;
   }
-.imu {
-    
-}
+
 
