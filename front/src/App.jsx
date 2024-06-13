@@ -30,7 +30,6 @@ function App() {
       setEnd(true);
     }
   }, [index, list]);
-  
 
   const getList = () => {
     fetch("/api/country")
@@ -130,6 +129,7 @@ function App() {
             <h4>
               {value.split("").map((ele, index) => (
                 <span
+                  id="bun"
                   key={index}
                   style={{ opacity: index === value.length - 1 ? 1 : 0.5 }}
                 >
@@ -140,7 +140,17 @@ function App() {
           </div>
         </div>
       )}
-      {end && <h2>終了です！</h2>}
+      <div className="imu">
+        {!end && (
+          <img src="../img/めっちゃ好きやぁぁぁ！_gifmagazine.gif"></img>
+        )}
+        {end && (
+          <>
+            <h2>終了です！</h2>
+            <img src="../img/たららったたたた～！_gifmagazine.gif"></img>
+          </>
+        )}
+      </div>
     </>
   );
 }
