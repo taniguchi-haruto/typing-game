@@ -1,4 +1,4 @@
-# name typingGame
+# typingGame
 
 ## 目次
 
