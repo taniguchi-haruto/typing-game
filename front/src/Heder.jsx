@@ -5,7 +5,7 @@ export const Heder = (props) => {
     <div className="heder">
       {!dis && (
         <div>
-          <h1>国名タイピング</h1>
+          <h1 className="wf-nikukyu">くにのなまえタイピング</h1>
           <button className="del" onClick={onClick}>
             国名の変更
           </button>
